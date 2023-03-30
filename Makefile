@@ -9,3 +9,9 @@ build:
 
 run:
 	go run .
+
+7zzip: 
+	7z a -tzip "$(app).zip" $(bin)
+
+release:
+	build zip
