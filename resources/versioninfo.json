@@ -1,0 +1,44 @@
+{
+    "FixedFileInfo": {
+      "FileVersion": {
+        "Major": 0,
+        "Minor": 0,
+        "Patch": 0,
+        "Build": 1
+      },
+      "ProductVersion": {
+        "Major": 0,
+        "Minor": 0,
+        "Patch": 0,
+        "Build": 1
+      },
+      "FileFlagsMask": "3f",
+      "FileFlags ": "00",
+      "FileOS": "040004",
+      "FileType": "01",
+      "FileSubType": "00"
+    },
+    "StringFileInfo": {
+      "Comments": "",
+      "CompanyName": "",
+      "FileDescription": "A small window program written in Golang to emulate mouse clicks",
+      "FileVersion": "0.0.0.1",
+      "InternalName": "Clickss.exe",
+      "LegalCopyright": "Copyright © songlim327@gmail.com",
+      "LegalTrademarks": "",
+      "OriginalFilename": "Clickss.exe",
+      "PrivateBuild": "",
+      "ProductName": "Clickss",
+      "ProductVersion": "1.0",
+      "SpecialBuild": ""
+    },
+    "VarFileInfo": {
+      "Translation": {
+        "LangID": "0409",
+        "CharsetID": "04B0"
+      }
+    },
+    "IconPath": "resources/logo.ico",
+    "ManifestPath": "resources/clickss.manifest"
+  }
+  
