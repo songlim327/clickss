@@ -2,7 +2,6 @@ package core
 
 import (
 	"clickss/internal/constants"
-	"log"
 	"time"
 
 	"fyne.io/fyne/v2"
@@ -26,7 +25,6 @@ func StartHandler(button string, duration int, key string) {
 
 // StopHandler stop the clicking process
 func StopHandler() {
-	log.Println("Disabled")
 	if quitChan != nil && isActive {
 		quitChan <- true
 	}
@@ -45,7 +43,7 @@ func register(button string, duration int) {
 			default:
 				// run the clicks
 				robotgo.Click(button, false)
-				time.Sleep(time.Millisecond * time.Duration(duration))
+				time.Sleep(time.Millisecond * time.Duration(1000/duration))
 			}
 		}
 	}(button, duration)
